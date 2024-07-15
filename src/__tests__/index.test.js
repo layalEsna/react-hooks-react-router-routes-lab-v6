@@ -51,5 +51,5 @@ test("renders an error page when given a bad URL", () =>{
   render(
       <RouterProvider router={router} />
   )
-  expect(screen.getByText(/Oops! Looks like something went wrong./)).toBeInTheDocument()
+  expect(screen.getByText(/Whoops! Something went wrong!/)).toBeInTheDocument()
 })
